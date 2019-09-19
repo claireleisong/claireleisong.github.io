@@ -3,13 +3,10 @@ layout: post
 title: Recent project
 ---
 
+\usepakage(ragged2e)
+\justifying
 Last month, I did a fun project and the main topic of my project is the comparison of MPC solution and high fidelity simulation for magnetic levitating ball.
  
 Magnetic Levitation lead low losses energy from friction. In addition, lower the energy cost of controlling this system promoted the eﬃciency of energy consuming. Therefore, Model Predict Control (MPC) is introduced to lower energy cost when controlling this system. This resulting project reveals the gap between Model Predict Control (MPC) solution and high ﬁdelity simulation. To perform MPC solution on a real system may not achieve aimed goal. In this simulation, two cases are contradicted to future position estimation of Runge-Kutta Fehlberg with 4th and 5th order method. More speciﬁc, too many state and input nodes applied in one MPC model cause distortion when this model put too much weight on cost function. To be controlled exactly, lower the penalty weighting constraints will lead to better reference tracking.
 
 The technology of magnetic levitation has been used in diﬀerent kinds of areas, such as high speed transportation system, self-bearing blood pumps for use in artiﬁcial hearts and so on. My interest ﬁrst lies on the scene I saw in a movie. Infeasibility handling is increasingly important and attracts me most. Here is a picture below I saw in a movie. I simplify the iron man to a ball to implement the model. It is indispensable to keep most maglev systems working under tight constraints to ensure good energy conversion performance. In addition, failure to enforce such constraints may lead to catastrophic faults, since the magnetic force may not be strong enough to bring the object back to its reference position. Moreover, the current at the electromagnet coil is usually subject to slew rate and amplitude limitations, which places a constraint on the control variables. Therefore, the natural handling of constraints presented by Model Predictive Control (MPC) implementations arises as an interesting approach to this problem.
-
-
-![_config.yml]({{ site.baseurl }}/images/config.png)
-
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
