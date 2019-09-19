@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Currently, I am in the MDSCL program at UBC.
 
 ### More Information
 
